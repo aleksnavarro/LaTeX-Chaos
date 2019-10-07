@@ -1,0 +1,38 @@
+%%Juego de fotos en Latex
+
+%%Una foto al centro
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.60]{ruta_de_foto}
+  \end{center}
+  \vspace{-20pt}
+  \caption{Pie de foto.}
+  \vspace{-10pt}
+\end{figure}
+
+%%Foto a un costado:
+\begin{wrapfigure}{r}{0.45\textwidth}
+  \vspace{-20pt}
+  \begin{center}
+    \includegraphics[scale=0.2]{ruta_de_foto}
+  \end{center}
+  \vspace{-20pt}
+  \caption{Pie de foto}
+  \vspace{-10pt}
+\end{wrapfigure}
+
+%%Mosaico de fotos
+\begin{figure}[H]
+    \centering
+    \subcaptionbox{Pie de foto 1.}
+    		{\includegraphics[width=60mm]{foto_1}}\quad
+    \subcaptionbox{Pie de foto 2.}
+    		{\includegraphics[width=60mm]{foto_2}}
+    		
+    	\subcaptionbox{Pie de foto 3.}
+    		{\includegraphics[width=60mm]{foto_3}}\quad
+    \subcaptionbox{Pie de foto 4.}
+    		{\includegraphics[width=60mm]{foto_4}}
+        
+    \caption{Pie de foto de todo el mosaico}
+\end{figure}
