@@ -1,0 +1,105 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TEXmaster: Master Document LaTex, Versión 0.3									%
+%		Documento tipo article en doble columna.				  			   /%
+% 	Para Laboratorio de óptica, FS11 D09.									///	%
+% Diseñado en TexMaker 4.0.3, por A. Navarro, L. Santiago y R. Sandoval	  ///	%
+%		Martes 8 de abril de 2014										///		%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt,a4paper]{article} %Tipo de documento.
+\usepackage[utf8]{inputenc} %Codificación.
+\usepackage[spanish,es-tabla]{babel} %Idioma.
+\usepackage{amsmath,times} %Paquete de escritura matematica.
+\usepackage{amsfonts} %Paquete para fuentes de escritura matematica.
+\usepackage{amssymb} %Paquete para fuente de símbolos AMS.
+%\usepackage{aps}
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage{stfloats}
+\usepackage{flushend}
+\usepackage{graphicx} %Paquete para soporte gráfico.
+\usepackage{caption}
+\usepackage{verbatim} %Paquete para comentarios y citas.
+\usepackage{bm} %Paquete para escribir símbolos matematicos en negritas.
+%\usepackage[showframe]{geometry} %Especificaciones de margenes
+\usepackage{appendix} %Paquete de apéndices.
+%\usepackage[]{mcode} %Paquete para soporte de código.
+\usepackage{color}
+\sloppy
+\definecolor{lightgray}{gray}{0.5}
+\setlength{\parindent}{0pt}
+\parskip 2ex
+\textwidth =6.5in
+\textheight =8in
+\oddsidemargin =0.0in
+\evensidemargin =0.0in
+\usepackage{sectsty} %Paquete para personalización de títulos de secciones y subsecciones.
+%\numberwithin{equation}{chapter} %Númeración de ecuaciones
+\sectionfont{\large} %Tamaño de fuente de sección, %\small o %\large.
+\author{autor} %autor
+\title{título} %título
+\date{lugar\\afiliación\\fecha} %fecha del documento, %\today puede ser cambiado por una fecha manual.
+%\date{lugar/institucion\\fecha} %Afiliación del autor y fecha del documento
+
+
+\begin{document}
+
+\maketitle %Hace el título del documento en base con la información escrita en %\author, %\title, %\affiliation y %\date.
+\begin{center}\rule{0.9\textwidth}{0.1mm} \end{center}
+\begin{abstract}
+
+{\bf Palabras Clave:} %añade las palabras clave (después del "}" ).
+\end{abstract}
+\begin{center}\rule{0.9\textwidth}{0.1mm} \end{center}
+
+%\tableofcontents %Crea una tabla de contenidos.
+\begin{multicols}{2}
+
+\section{Introducción}
+
+\section{Observaciones}
+
+\section{Resultados}
+
+\section{Discusión}
+
+\section{Conclusiones}
+
+\section{Bibliografia}
+
+\end{multicols}
+
+\newpage
+\appendix
+
+\end{document}
+
+%\begin{figure*}[htbp]
+%\centering
+%\includegraphics[width=1\textwidth]{./nombrearchivo.jpg}
+%\caption{Piedefigura.}
+%\label{fig:etiqueta}
+%\end{figure*}
+
+%\begin{center}
+%\includegraphics[height=60mm]{./nombredelarchivo.jpg}
+%\captionof{figure}{\footnotesize piedefoto.}
+%\end{center}
+
+%\begin{table}[h]
+%\begin{center}
+%\caption{nombre}
+%\begin{tabular}[H]{|l|l|l|}
+%\hline
+%1 & 2 & 3 
+%\\
+%\hline
+%4 & 4 & 6				
+%\\
+%\hline
+%7 & 8 & 9
+%\\
+%\hline
+%\end{tabular}
+%\end{center}
+%\end{table}

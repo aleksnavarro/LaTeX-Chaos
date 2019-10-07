@@ -1,0 +1,85 @@
+% Cabecera de documento
+\documentclass[11pt,letterpaper]{article} 	% Tipo de documento
+\usepackage[utf8]{inputenc}					% Codificación de la entrada
+\usepackage[spanish,es-tabla]{babel}			% Idioma
+\usepackage[T1]{fontenc}						% Codificación de la fuente
+\usepackage{helvet}							% Tipo de fuente
+\renewcommand{\familydefault}{\sfdefault}	% Asigna la fuente definida arriba
+\usepackage{blindtext}						% Texto dummy, Lorem Ipsum
+\linespread{1.5}								% Interlineado
+\usepackage{vmargin}							% Permite definir los margenes
+\setmargins{2.5cm}       						% margen izquierdo
+		   {1.5cm}                        		% margen superior
+		   {16.5cm}                      		% anchura del texto
+		   {23.42cm}                    			% altura del texto
+		   {10pt}                           		% altura de los encabezados
+		   {1cm}                           		% espacio entre el texto y los encabezados
+		   {0pt}                             	% altura del pie de página
+		   {1.5cm}                           	% espacio entre el texto y el pie de página
+
+\usepackage{amsmath,times} 					% Paquete de escritura matematica
+\usepackage{amsfonts} 						% Paquete de extensión para fuentes de escritura matematica
+\usepackage{amssymb} 						% Paquete para fuente de símbolos AMS
+\usepackage{amsthm}							% Paquete para entornos de teorema
+
+\usepackage{graphicx}			 			% Paquete para soporte gráfico
+\usepackage{float}							% Paquete para entornos tipo float
+\usepackage{caption}						% Paquete para pie de fotos, tablas, entornos tipo float
+\usepackage{subcaption}						% Paquete para pie de entornos float cuando coexisten en un solo entorno
+\usepackage{wrapfig}						% Paquete para permitir que el texto rodeé imagenes y tablas
+
+\usepackage{hyperref}						% Paquete para URLs.
+\usepackage{verbatim} 						% Paquete para comentarios y citas
+\usepackage{fancyvrb}						% Paquete para comentarios y citas más elaborados
+\usepackage{xcolor}							% Paquete para color
+\usepackage{listings}						% Paquete para entornos de código fuente
+\renewcommand{\lstlistingname}{Código fuente}% Definición para entorno de código fuente
+\lstset{
+	basicstyle=\ttfamily \small,					% Fuente en el código
+    frame=tb, 									% Lineas de bloque
+    tabsize=4, 									% Espacio del tabulador
+    showstringspaces=false, 						% Sin espacios en cadenas
+    numbers=left, 								% Números al margen izquierdo
+    commentstyle=\color{gray}, 					% Color de comentario
+    keywordstyle=\color{blue}, 					% Color de palabra reservada
+    stringstyle=\color{red} 						% Color de cadena
+}
+
+
+
+% Información del documento
+\newcommand{\autor}{autor}
+\newcommand{\codigo}{código}
+\newcommand{\institucion}{institución}
+\newcommand{\carrera}{carrera}
+\newcommand{\materia}{asignatura}
+\newcommand{\fecha}{\today}
+\newcommand{\titulo}{título}
+
+
+\begin{document}
+
+%Página de portada
+\begin{titlepage}
+    \begin{center}
+        {\Huge  \titulo} 		\\[4cm]
+        {\large \autor} 			\\
+        {\large \institucion} 	\\
+        {\large \carrera} 		\\
+        {\large \materia} 		\\
+        {\large \fecha} 			\\
+        \vfill
+    \end{center}
+    
+\begin{center}\rule{0.9\textwidth}{0.1mm} \end{center}
+\begin{abstract}
+\blindtext \\
+{\bf Palabras Clave: } %añade las palabras clave.
+\end{abstract}    
+\begin{center}\rule{0.9\textwidth}{0.1mm} \end{center}
+\end{titlepage}
+
+%Aquí inicia el documento
+\blinddocument
+
+\end{document}

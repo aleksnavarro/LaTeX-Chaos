@@ -1,0 +1,41 @@
+%-----------------------------------------
+%Cabeceras del documento
+%-----------------------------------------
+\documentclass[fleqn,10pt]{SelfArx} % Caracteristicas del documento
+\usepackage[spanish]{babel} % Idioma
+\setlength{\columnsep}{0.55cm} % Distancia entre las columnas de texto
+\setlength{\fboxrule}{0.75pt} % Ancho del borde alrededor del abstract
+\definecolor{color1}{RGB}{0,0,0} % Color del titulo y secciones
+\definecolor{color2}{RGB}{200,200,200} % Color de las cajas de fondo del abstract y las secciones
+\usepackage{hyperref} % Paquete para enlaces de internet
+\hypersetup{hidelinks,colorlinks,breaklinks=true,urlcolor=color2,citecolor=color1,linkcolor=color1,bookmarksopen=false,pdftitle={Title},pdfauthor={Author}}
+\JournalInfo{Información} % Información de la publicacion
+\Archive{Notas adicionales} % Notas adicionales
+\PaperTitle{Título} % Título del articulo
+\Authors{Autor 1\textsuperscript{1}*, Autor 2\textsuperscript{2}} % Autoress
+\affiliation{\textsuperscript{1}\textit{Departamento, Universidad, Lugar}} % Afiliacion del autor uno
+\affiliation{\textsuperscript{2}\textit{Departamento, Universidad, Lugar}} % Afiliacion de autor dos
+\affiliation{*\textbf{Corresponding author}: uno@algo.net} % contacto del autor
+\Keywords{Keyword1 --- Keyword2 --- Keyword3} % Palabras clave
+\newcommand{\keywordname}{Palabras clave} % Define el nombre de las palabras clave
+
+%----------------Aquí inicia el documento
+\Abstract{Abstract} %escribe el abstract aquí
+\begin{document}
+
+\flushbottom % Todas las paginas a la misma altura
+\maketitle % Imprime el titulo y el abstract
+%\tableofcontents % Imprime una tabla de contenidos
+\thispagestyle{empty} % Remueve la numeracion de la primera pagina.
+
+\section*{Introducción}
+
+\section*{Observaciones}
+
+\section*{Resultados}
+
+\section*{Discusión}
+
+\section*{Conclusiones}
+
+\end{document}

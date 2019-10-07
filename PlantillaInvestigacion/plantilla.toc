@@ -1,0 +1,15 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Trigonometr\IeC {\'\i }a}{3}
+\contentsline {subsection}{\numberline {1.1}Angulos, arcos y sistemas de medici\IeC {\'o}n}{3}
+\contentsline {subsection}{\numberline {1.2}Definici\IeC {\'o}n de las 6 funciones trigonom\IeC {\'e}tricas}{3}
+\contentsline {subsection}{\numberline {1.3}Identidades fundamentales}{3}
+\contentsline {subsection}{\numberline {1.4}Gr\IeC {\'a}ficas de funciones trigonom\IeC {\'e}tricas}{3}
+\contentsline {subsection}{\numberline {1.5}Ley de senos}{3}
+\contentsline {subsection}{\numberline {1.6}Ley de cosenos}{3}
+\contentsline {subsection}{\numberline {1.7}Soluci\IeC {\'o}n de tri\IeC {\'a}ngulos}{3}
+\contentsline {section}{\numberline {2}Geometr\IeC {\'\i }a an\IeC {\'a}litica}{4}
+\contentsline {subsection}{\numberline {2.1}La l\IeC {\'\i }nea recta}{4}
+\contentsline {subsection}{\numberline {2.2}La circunferenc\IeC {\'\i }a}{4}
+\contentsline {subsection}{\numberline {2.3}La par\IeC {\'a}bola}{4}
+\contentsline {subsection}{\numberline {2.4}La elipse}{4}
+\contentsline {subsection}{\numberline {2.5}La hip\IeC {\'e}rbola}{4}
